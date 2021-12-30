@@ -1,0 +1,82 @@
+.wrapperOuter {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  max-width: 500px;
+}
+
+.wrapperInner {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+.immunePage {
+  max-width: 1270px;
+  margin: 0 auto 60px;
+}
+
+.whiteBgStatus {
+  background: #fff;
+  margin-top: 28px;
+  padding: 10px 20px 40px;
+  margin-bottom: 32px
+}
+
+.contentContainer {
+  max-width: 900px;
+}
+
+.logo {
+  margin: 20px auto;
+  vertical-align: middle;
+  width: 40% !important;
+}
+
+.centered {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.headingStatus {
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.small {
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.h3 {
+  font-weight: 600;
+}
+
+.statusContainer {
+  padding: 22px 30px;
+  background-color: #13a14f;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.statusValue {
+  display: inline-block;
+  padding: 6px 36px;
+  background: #fff;
+  border-radius: 16px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.statusParam {
+  margin-bottom: 6px;
+}
